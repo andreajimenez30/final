@@ -3,24 +3,23 @@
 }
 
 .icon-link > .bi {
-  width: 0.75em;
-  height: 0.75em;
+  width: .75em;
+  height: .75em;
 }
 
 /*
  * Custom translucent site header
  */
+
 .site-header {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, .85);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
-
 .site-header a {
   color: #8e8e8e;
-  transition: color 0.15s ease-in-out;
+  transition: color .15s ease-in-out;
 }
-
 .site-header a:hover {
   color: #fff;
   text-decoration: none;
@@ -29,6 +28,7 @@
 /*
  * Dummy devices (replace them with your own or something else entirely!)
  */
+
 .product-device {
   position: absolute;
   right: 10%;
@@ -47,7 +47,7 @@
   bottom: 10%;
   left: 10px;
   content: "";
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, .1);
   border-radius: 5px;
 }
 
@@ -59,15 +59,16 @@
   background-color: #e5e5e5;
 }
 
+
 /*
  * Extra utilities
  */
+
 .flex-equal > * {
   flex: 1;
 }
-
 @media (min-width: 768px) {
   .flex-md-equal > * {
     flex: 1;
   }
-}/*# sourceMappingURL=product.css.map */
+}
